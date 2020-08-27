@@ -109,7 +109,7 @@ export default {
   },
   computed: {
     options() {
-      return JSON.parse ? JSON.parse(OPTIONS) : OPTIONS;
+      return JSON.parse ? JSON.parse(GRAY_PAGE_PLUGIN_OPTIONS) : GRAY_PAGE_PLUGIN_OPTIONS;
     }
   }
 }

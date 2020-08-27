@@ -18,7 +18,7 @@ module.exports = (options = {}) => ({
       console.log && console.log(`"加载${options.pluginName}插件配置：${JSON.stringify ? JSON.stringify(options) : options}`);
     }
     return {
-      OPTIONS: JSON.stringify(options)
+      GRAY_PAGE_PLUGIN_OPTIONS: JSON.stringify(options)
     }
   },
   clientRootMixin: path.resolve(__dirname, './clientRootMixin.js')
