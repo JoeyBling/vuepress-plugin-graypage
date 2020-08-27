@@ -1,0 +1,46 @@
+{
+  "name": "vuepress-plugin-graypage",
+  "version": "0.1.0",
+  "description": "VuePress哀悼日网站变灰. | Mourning website turns gray plugin for VuePress.",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev dev",
+    "postinstall": "openteam-postinstall || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeyBling/vuepress-plugin-graypage.git"
+  },
+  "keywords": [
+    "vue",
+    "vuepress",
+    "vuepress-plugin",
+    "gray",
+    "graypage",
+    "mourn",
+    "灰色",
+    "哀悼日",
+    "yilia-plus"
+  ],
+  "author": {
+    "name": "JoeyBling",
+    "email": "2434387555@qq.com",
+    "url": "https://zhousiwei.gitee.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoeyBling/vuepress-plugin-graypage/issues"
+  },
+  "homepage": "https://github.com/JoeyBling/vuepress-plugin-graypage",
+  "dependencies": {
+    "graypage": "^1.0.8",
+    "openteam-postinstall": "^1.0.2"
+  },
+  "devDependencies": {
+    "vuepress": "^1.5.4"
+  }
+}
