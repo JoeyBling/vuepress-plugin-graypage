@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-graypage",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "VuePress哀悼日网站变灰. | Mourning website turns gray plugin for VuePress.",
   "main": "index.js",
   "publishConfig": {
@@ -37,7 +37,6 @@
   },
   "homepage": "https://github.com/JoeyBling/vuepress-plugin-graypage",
   "dependencies": {
-    "graypage": "^1.0.8",
     "openteam-postinstall": "^1.0.2"
   },
   "devDependencies": {

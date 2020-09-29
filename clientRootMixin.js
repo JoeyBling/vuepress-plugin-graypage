@@ -1,8 +1,8 @@
-// https://github.com/pup/graypage
-import {
+// https://github.com/pup/graypage (非标准语法，执行打包会报错，自行实现)
+const {
   gray,
   stopGray
-} from 'graypage';
+} = require("./graypage");
 
 export default {
   props: {

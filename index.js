@@ -15,7 +15,7 @@ module.exports = (options = {}) => ({
   },
   define() {
     if (options.log) {
-      console.log && console.log(`"加载${options.pluginName}插件配置：${JSON.stringify ? JSON.stringify(options) : options}`);
+      console.log && console.log(`加载${options.pluginName}插件配置：${JSON.stringify ? JSON.stringify(options) : options}`);
     }
     return {
       GRAY_PAGE_PLUGIN_OPTIONS: JSON.stringify(options)
